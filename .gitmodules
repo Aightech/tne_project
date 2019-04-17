@@ -1,0 +1,39 @@
+[submodule "inputs/lslpub_OTB"]
+	path = inputs/lslpub_OTB
+	url = git@github.com:Aightech/lslpub_OTB.git
+[submodule "inputs/lslpub_Xsens"]
+	path = inputs/lslpub_Xsens
+	url = git@github.com:Aightech/lslpub_Xsens.git
+[submodule "inputs/lslpub_XsensRaw"]
+	path = inputs/lslpub_XsensRaw
+	url = git@github.com:Aightech/lslpub_XsensRaw.git
+[submodule "inputs/lslpub_LabJack"]
+	path = inputs/lslpub_LabJack
+	url = git@github.com:Aightech/lslpub_LabJack.git
+[submodule "inputs_labels/lslsub_handModel"]
+	path = inputs_labels/lslsub_handModel
+	url = git@github.com:Aightech/lslsub_handModel.git
+[submodule "inputs_labels/lslpub_handChoregraph"]
+	path = inputs_labels/lslpub_handChoregraph
+	url = git@github.com:Aightech/lslpub_handChoregraph.git
+[submodule "other/lslsub_plotter"]
+	path = other/lslsub_plotter
+	url = git@github.com:Aightech/lslsub_plotter.git
+[submodule "other/lsl_manager"]
+	path = other/lsl_manager
+	url = git@github.com:Aightech/lsl_manager.git
+[submodule "other/lsl_managerWeb"]
+	path = other/lsl_managerWeb
+	url = git@github.com:Aightech/lsl_managerWeb.git
+[submodule "database/lslsub_dbfeeder"]
+	path = database/lslsub_dbfeeder
+	url = git@github.com:Aightech/lslsub_dbfeeder.git
+[submodule "machine_learning/psql_ML"]
+	path = machine_learning/psql_ML
+	url = git@github.com:Aightech/psql_ML.git
+[submodule "inputs/lslpub_ESP"]
+	path = inputs/lslpub_ESP
+	url = git@github.com:Aightech/lslpub_ESP.git
+[submodule "processing/lslsub_decoder"]
+	path = processing/lslsub_decoder
+	url = git@github.com:Aightech/lslsub_decoder.git
