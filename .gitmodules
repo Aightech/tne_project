@@ -28,9 +28,6 @@
 [submodule "database/lslsub_dbfeeder"]
 	path = database/lslsub_dbfeeder
 	url = git@github.com:Aightech/lslsub_dbfeeder.git
-[submodule "machine_learning/psql_ML"]
-	path = machine_learning/psql_ML
-	url = git@github.com:Aightech/psql_ML.git
 [submodule "inputs/lslpub_ESP"]
 	path = inputs/lslpub_ESP
 	url = git@github.com:Aightech/lslpub_ESP.git
