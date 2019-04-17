@@ -31,6 +31,3 @@
 [submodule "inputs/lslpub_ESP"]
 	path = inputs/lslpub_ESP
 	url = git@github.com:Aightech/lslpub_ESP.git
-[submodule "processing/lslsub_decoder"]
-	path = processing/lslsub_decoder
-	url = git@github.com:Aightech/lslsub_decoder.git
