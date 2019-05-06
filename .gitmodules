@@ -37,6 +37,6 @@
 [submodule "inputs/lslpub_OTB"]
 	path = inputs/lslpub_OTB
 	url = ../lslpub_OTB
-[submodule "inputs/lslpub_handGlove"]
-	path = inputs/lslpub_handGlove
+[submodule "inputs_labels/lslpub_handGlove"]
+	path = inputs_labels/lslpub_handGlove
 	url = ../lslpub_handGlove
