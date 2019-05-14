@@ -42,4 +42,4 @@
 	url = ../lslpub_handGlove
 [submodule "inputs/lslpub_sigGen"]
 	path = inputs/lslpub_sigGen
-	url = git@github.com:Aightech/lslpub_sigGen
+	url = ../Aightech/lslpub_sigGen
