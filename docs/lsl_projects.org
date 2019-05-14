@@ -1,0 +1,257 @@
+* LSL Publishers
+** lslpub_XsensRaw [100%]
+# TODO
+- [X] create repository
+- [X] read the doc
+- [X] get the serial data
+- [X] process it
+- [X] stream LSL
+*** INFOS:
+  - c++
+  - publish Xsens raw IMU sensors data to a LSL stream 
+*** INPUTS:
+  - Raw Xsens data
+  - from serial port/wirless port
+*** OUTPUTS:
+  - LSL chunk/samples stream
+
+** lslpub_Xsens [20%]
+# TODO
+- [X] create repository
+- [ ] read the doc
+- [ ] get the UDP package
+- [ ] process it
+- [ ] stream LSL
+*** INFOS:
+  - C++
+  - publish body configuration data from MVN Analyze software to a LSL stream
+*** INPUTS:
+  - UDP stream
+  - from Xsens software
+*** OUTPUTS:
+  - LSL stream
+ 
+** lslpub_OTB [83%]
+# TODO
+- [X] create repository
+- [X] get some doc/ contacts
+- [X] send right TCP requests
+- [X] process the reply
+- [X] stream Lsl
+- [ ] make the configuration easier
+*** INFOS:
+- c++
+- get the data from the OTBiolab software and pub them in a LSL stream
+*** INPUTS:
+- from OTBiolab software
+*** OUTPUTS:
+- LSL stream
+
+** lslpub_handChoregraph [50%]
+# TODO
+- [ ] create repository
+- [ ] get some doc/ contacts
+*** INFOS:
+- 
+
+
+
+** lslpub_handModel [83%]
+# TODO
+- [X] create repository
+- [X] get some doc/ contacts
+- [X] make fingers movement animations
+- [X] manage the inputs
+  - [X] keyboard
+  - [X] joysticks
+  - [X] timer
+- [X] publish joints position/orientations in a LSL stream
+- [ ] create vincent branch
+  - [ ] 6 floats
+  - [ ] not always publish
+*** INFOS:
+- c#
+- show hand/finger 3D animation and send the curent joints states of the 3Dmodel in a LSL stream 
+*** INPUTS:
+- keayboard/joysticks/timer scenarios
+*** OUTPUTS:
+- LSL stream
+
+** lslpub_esp32 [0%]
+# TODO
+- [ ] create repository
+- [ ] get some doc/ contacts
+*** INFOS:
+- 
+
+  
+** lslpub_LabJack [100%]
+# TODO
+- [X] create repository
+- [X] get some doc/ contacts
+*** INFOS:
+- 
+
+
+
+
+** lslpub_glove [50%]
+# TODO
+- [ ] create repository
+- [ ] get some doc/ contacts
+*** INFOS:
+- 
+
+
+
+
+
+* LSL Subscribers
+** lslsub_plotter [62%]
+# TODO
+- [X] create repository
+- [X] read qt doc
+- [X] make a gui
+- [ ] scan LSL streams
+- [X] get the streams
+- [X] get time stamps
+- [-] plot the stream
+  - [X] heatmap
+  - [ ] lines
+- [ ] make it works on windows
+  - [ ] compile LSL
+  - [ ] install Qt
+  - [ ] link lib
+*** INFOS:
+- C++
+- enable to select and visualize lslstream
+*** INPUTS:
+- LSL stream
+- User selection
+*** OUTPUTS:
+- scatter plots
+- heatmap plot
+
+** lslsub_plotter_py [16%]
+# TODO
+- [X] create repository
+- [ ] read pyqt doc
+- [ ] make retrieve cpp gui
+- [ ] scan LSL stream
+- [ ] get the streams
+- [ ] plot the stream
+  - [ ] heatmap
+  - [ ] lines
+*** INFOS:
+- python
+- enable to select and visualize lslstream
+*** INPUTS:
+- LSL stream
+- User selection
+*** OUTPUTS:
+- scatter plots
+- heatmap plot
+  
+** lslsub_dbfeeder [0%]
+# TODO
+- [ ] create repository
+- [ ] get some doc/ contacts
+*** INFOS:
+- 
+
+
+
+** lslsub_decoder [0%]
+# TODO
+- [ ] create repository
+- [ ] get some doc/ contacts
+*** INFOS:
+- 
+
+
+
+
+** lslpub_robotHand [0%]
+# TODO
+- [ ] create repository
+- [ ] get some doc/ contacts
+*** INFOS:
+- 
+
+
+
+
+
+* LSL Managers
+** lsl_manager[50%]
+# TODO
+- [X] create repository
+- [X] read qt doc
+- [ ] make a GUI [0%]
+  - [ ] button for each pub/sub
+  - [ ] ports/IP inputs for each pub/sub
+  - [ ] connection graph
+  - [ ] data
+- [ ] think of a way to launch program on different computers
+*** INFOS:
+- c++
+- enable to launch different publishers or subscribers program from one GUI
+*** INPUTS:
+- user inputs
+*** OUTPUTS:
+- LSL connectivity graph/ program launched
+      
+** lsl_managerWeb [50%]
+# TODO
+- [X] create repository
+- [X] read dash doc
+- [ ] make a GUI [0%]
+  - [ ] button for each pub/sub
+  - [ ] ports/IP inputs for each pub/sub
+  - [ ] connection graph
+  - [ ] data
+- [ ] think of a way to launch program on different computers
+*** INFOS:
+- python
+- enable to launch different publishers or subscribers program from one web page using dash.
+*** INPUTS:
+- user inputs
+*** OUTPUTS:
+- LSL connectivity graph/ program launched
+  
+
+
+
+* Other 
+** psql_ML [0%]
+# TODO
+- [ ] create repository
+- [ ] get some doc/ contacts
+*** INFOS:
+- 
+
+
+
+
+
+
+* git clone
+** html
+git clone https://github.com/Aightech/lslpub_XsensRaw.git
+git clone https://github.com/Aightech/lslpub_Xsens.git
+git clone https://github.com/Aightech/lslpub_OTB.git
+git clone https://github.com/Aightech/lslpub_unityHands.git
+git clone https://github.com/Aightech/lslsub_plotter.git
+git clone https://github.com/Aightech/lslsub_plotter_py.git
+git clone https://github.com/Aightech/lsl_manager.git
+git clone https://github.com/Aightech/lsl_managerWeb.git
+
+** ssh
+git clone git@github.com:Aightech/lslpub_XsensRaw.git
+git clone git@github.com:Aightech/lslpub_Xsens.git
+git clone git@github.com:Aightech/lslpub_OTB.git
+git clone git@github.com:Aightech/lslpub_unityHands.git
+git clone git@github.com:Aightech/lslsub_plotter.git
+git clone git@github.com:Aightech/lslsub_plotter_py.git
+git clone git@github.com:Aightech/lsl_manager.git
+git clone git@github.com:Aightech/lsl_managerWeb.git

@@ -1,3 +1,3 @@
 # tne_project
 
-![alt text](architecture.png)
+![alt text](doc/architecture.png)

@@ -40,3 +40,6 @@
 [submodule "inputs_labels/lslpub_handGlove"]
 	path = inputs_labels/lslpub_handGlove
 	url = ../lslpub_handGlove
+[submodule "inputs/lslpub_sigGen"]
+	path = inputs/lslpub_sigGen
+	url = git@github.com:Aightech/lslpub_sigGen
