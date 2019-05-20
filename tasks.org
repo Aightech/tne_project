@@ -1,0 +1,17 @@
+#+SEQ_TODO: TODO(t) WAITING(w) SOMEDAY(s) | DONE(d) CANCELLED(c)
+
+* Tasks
+** TODO Read articles
+   DEADLINE: <2019-05-24 ven.> SCHEDULED: <2019-05-17 ven.>
+** TODO Do Machine learning tests
+   DEADLINE: <2019-05-24 ven.> SCHEDULED: <2019-05-17 ven.>
+** TODO Choose Topics
+   DEADLINE: <2019-05-31 ven.> SCHEDULED: <2019-05-26 dim.>
+** TODO Create experimental protocole
+   DEADLINE: <2019-05-31 ven.> SCHEDULED: <2019-05-27 lun.>
+** TODO Conduct experiments
+   SCHEDULED: <2019-06-02 dim.>
+** TODO Process data
+   SCHEDULED: <2019-06-02 dim.>
+** TODO Write article
+** TODO write internship reports
