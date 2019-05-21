@@ -1,4 +1,4 @@
-# tne_project
+# TNE project
 
 | [Inputs](#inputs)  | [Inputs Labels](#inputs-labels)   | [Database](#database)  | [Processing ](#processing) | [Other](#other)    |
 |:------------------:|:---------------------------------:|:----------------------:|:--------------------------:|:------------------:|
