@@ -7,8 +7,7 @@
 ![alt text](docs/architecture.png)
 
 ## Inputs
-### OTB400 - lslpub_OTB
-<a name="OTB"></a>
+### OTB400 - lslpub_OTB <a name="OTB"></a>
 - **Brief**: Create a TCP connection with the OTB400 device and publish the samples on a LSL streams 
 - **Documentation & Git**: [Doc link](https://aightech.github.io/lslpub_OTB/html/d3/dcc/md__r_e_a_d_m_e.html) & [Git link](https://github.com/Aightech/lslpub_OTB)
 - **Note**: /
