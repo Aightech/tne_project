@@ -1,10 +1,10 @@
 # tne_project
 
-| [Inputs](#inputs)  | [Inputs Labels](#inputs-labels) | [Database](#database) | [Processing ](#processing) | [Other](#other) |
-|:------------------:|:-------------------------------:|:---------------------:|:--------------------------:|:---------------:|
-| [OTB](#OTB)        | [Hand Model](#handModel)        |  |  |  | 
-| [ESP](#ESP)        |  |  |  |  | 
-| [LabJack](#LabJack)|  |  |  |  | 
+| [Inputs](#inputs)  | [Inputs Labels](#inputs-labels)   | [Database](#database) | [Processing ](#processing) | [Other](#other) |
+|:------------------:|:---------------------------------:|:---------------------:|:--------------------------:|:---------------:|
+| [OTB](#OTB)        | [Hand Model](#handModel)          |  |  |  | 
+| [ESP](#ESP)        | [Hand Choregraph](#handChoregraph)|  |  |  | 
+| [LabJack](#LabJack)| [Sensor Glove](#handGlove)        |  |  |  | 
 | [Xsens](#Xsens)    |  |  |  |  | 
 
 ![alt text](docs/architecture.png)
@@ -59,4 +59,24 @@
 
 | Ubuntu           | Window10         | MacOS            |
 |:----------------:|:----------------:|:----------------:|
-|:x:               |:grey_question:   |:grey_question:   |
+|:x:               |:heavy_check_mark:|:grey_question:   |
+
+### Hand Choregrapher - lslpub_handChoregraph <a name="handChoregraph"></a>
+- **Brief**: Create or open hand choregraphy file and publish the succession of mouvement on a LSL stream to control the [hand model](#handModel) 
+- **Documentation & Git**: [Doc link](https://aightech.github.io/lslpub_handChoregraph/html/index.html) & [Git link](https://github.com/Aightech/lslpub_handChoregraph)
+- **Note**: /
+- **Compatibility**:
+
+| Ubuntu           | Window10         | MacOS            |
+|:----------------:|:----------------:|:----------------:|
+|:heavy_check_mark:|:heavy_check_mark:|:grey_question:   |
+
+### Sensors Glove - lslpub_handGlove <a name="handGlove"></a>
+- **Brief**: Create or open hand choregraphy file and publish the succession of mouvement on a LSL stream to control the [hand model](#handModel) 
+- **Documentation & Git**: ~~[Doc link](https://aightech.github.io/lslpub_handGlove/html/index.html)~~ & [Git link](https://github.com/Aightech/lslpub_handGlove)
+- **Note**: not working well ...
+- **Compatibility**:
+
+| Ubuntu           | Window10         | MacOS            |
+|:----------------:|:----------------:|:----------------:|
+|:heavy_check_mark:|:grey_question:   |:grey_question:   |
