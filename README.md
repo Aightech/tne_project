@@ -1,9 +1,9 @@
 # tne_project
 
-| [Inputs](#inputs)  | [Inputs Labels](#inputs-labels)   | [Database](#database)  | [Processing ](#processing) | [Other](#other) |
-|:------------------:|:---------------------------------:|:----------------------:|:--------------------------:|:---------------:|
-| [OTB](#OTB)        | [Hand Model](#handModel)          | [Feeder](#dbfeeder)    |  |  | 
-| [ESP](#ESP)        | [Hand Choregraph](#handChoregraph)| [Machine learning](#ML)|  |  | 
+| [Inputs](#inputs)  | [Inputs Labels](#inputs-labels)   | [Database](#database)  | [Processing ](#processing) | [Other](#other)    |
+|:------------------:|:---------------------------------:|:----------------------:|:--------------------------:|:------------------:|
+| [OTB](#OTB)        | [Hand Model](#handModel)          | [Feeder](#dbfeeder)    | [Online Decoder](#decoder) | [Plotter](#plotter)| 
+| [ESP](#ESP)        | [Hand Choregraph](#handChoregraph)| [Machine learning](#ML)|                            | [Web Manager](#Web)| 
 | [LabJack](#LabJack)| [Sensor Glove](#handGlove)        |  |  |  | 
 | [Xsens](#Xsens)    |  |  |  |  | 
 
@@ -115,7 +115,7 @@
 
 ## Other
 ### LSL plotter - lslsub_plotter <a name="plotter"></a>
-- **Brief**: Get the streams and plot them in real time
+- **Brief**: Get the streams and plot them in real time.
 - **Documentation & Git**: [Doc link](https://aightech.github.io/lslsub_plotter/html/index.html) & [Git link](https://github.com/Aightech/lslsub_plotter)
 - **Note**: /
 - **Compatibility**:
@@ -124,8 +124,8 @@
 |:----------------:|:----------------:|:----------------:|
 |:heavy_check_mark:|:heavy_check_mark:|:grey_question:   |
 
-### Manager Web - lsl_managerWeb <a name="managerWeb"></a>
-- **Brief**: Get inputs and labels samples from the database and train a tensorflow model.
+### Manager Web - lsl_managerWeb <a name="Web"></a>
+- **Brief**: Enable to launch and monitor the different [inputs](#inputs) and [labels](#inputs-labes) pluggings.
 - **Documentation & Git**: [Doc link](https://aightech.github.io/lsl_managerWeb/html/index.html) & [Git link](https://github.com/Aightech/lsl_managerWeb)
 - **Note**: /
 - **Compatibility**:
