@@ -1,8 +1,7 @@
 # TNE project
 <p align="center">
 <pre>
-<img src="docs/tne_logo.png"  height="34" width="124"  /> <img src="docs/polytech_logo.png"  height="35" width="111"  /> 
-<img src="docs/perso_logo.png"  height="30" width="103"  /> <img src="docs/epfl_logo.png"  height="30" width="106"  />  <img src="docs/su_logo.png"  height="30" width="103"  />
+<img src="docs/tne_logo.png"  height="34" width="124"  /> <img src="docs/polytech_logo.png"  height="35" width="111"  />  <img src="docs/perso_logo.png"  height="75" width="66"  />  <img src="docs/epfl_logo.png"  height="30" width="106"  /> <img src="docs/su_logo.png"  height="30" width="103"  />
 </pre>
 </p>
 
