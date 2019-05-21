@@ -19,6 +19,8 @@
 ### OTB400 - lslpub_OTB <a name="OTB"></a>
 - **Brief**: Create a TCP connection with the OTB400 device and publish the samples on a LSL streams.
 - **Documentation & Git**: [Doc link](https://aightech.github.io/lslpub_OTB/html/d3/dcc/md__r_e_a_d_m_e.html) & [Git link](https://github.com/Aightech/lslpub_OTB)
+- **Languages**: C++
+- **Libraries**: LSL / network
 - **Note**: /
 - **Compatibility**:
 
@@ -29,6 +31,8 @@
 ### ESP - lslpub_ESP <a name="ESP"></a>
 - **Brief**: Create a wifi connection with an ESP device and publish the samples on a LSL streams.
 - **Documentation & Git**: [Doc link](https://aightech.github.io/lslpub_ESP/html/index.html) & [Git link](https://github.com/Aightech/lslpub_ESP)
+- **Languages**: C++ & Arduino
+- **Libraries**: LSL / network
 - **Note**: /
 - **Compatibility**:
 
@@ -39,6 +43,8 @@
 ### LabJack - lslpub_LabJack <a name="LabJack"></a>
 - **Brief**: Create a TCP connection with the LabJack and publish the samples on a LSL streams.
 - **Documentation & Git**: ~~[Doc link](https://aightech.github.io/lslpub_LabJack/html/index.html)~~ & [Git link](https://github.com/Aightech/lslpub_LabJack)
+- **Languages**: C++
+- **Libraries**: LSL / network / LabJack
 - **Note**: not stable and not configurable.
 - **Compatibility**:
 
@@ -49,6 +55,8 @@
 ### Xsens Raw IMU - lslpub_XsensRaw <a name="Xsens"></a>
 - **Brief**: Connect to Xsens IMU devices and publish the samples on a LSL streams.
 - **Documentation & Git**: ~~[Doc link](https://aightech.github.io/lslpub_XsensRaw/html/index.html)~~ & [Git link](https://github.com/Aightech/lslpub_XsensRaw)
+- **Languages**: C++
+- **Libraries**: LSL / Xsens
 - **Note**: not stable.
 - **Compatibility**:
 
@@ -60,6 +68,8 @@
 ### Hand Model - lslsub_handModel <a name="handModel"></a>
 - **Brief**: Create two 3D hand models with Unity. Those models can be control through LSL streams and they publish they current position on others LSL streams. 
 - **Documentation & Git**: [Doc link](https://aightech.github.io/lslpub_handModel/html/index.html) & [Git link](https://github.com/Aightech/lslpub_handModel)
+- **Languages**: C#
+- **Libraries**: LSL4Unity / Unity
 - **Note**: Linux issue due to LSL4Unity plugins
 - **Compatibility**:
 
@@ -70,6 +80,8 @@
 ### Hand Choregrapher - lslpub_handChoregraph <a name="handChoregraph"></a>
 - **Brief**: Create or open hand choregraphy file and publish the succession of mouvement on a LSL stream to control the [hand model](#handModel).
 - **Documentation & Git**: [Doc link](https://aightech.github.io/lslpub_handChoregraph/html/index.html) & [Git link](https://github.com/Aightech/lslpub_handChoregraph)
+- **Languages**: C++
+- **Libraries**: LSL / Qt
 - **Note**: /
 - **Compatibility**:
 
@@ -80,7 +92,9 @@
 ### Sensors Glove - lslpub_handGlove <a name="handGlove"></a>
 - **Brief**: Create a serial connection with the glove device device and publish the samples on a LSL streams.
 - **Documentation & Git**: ~~[Doc link](https://aightech.github.io/lslpub_handGlove/html/index.html)~~ & [Git link](https://github.com/Aightech/lslpub_handGlove)
-- **Note**: not working well ...
+- **Languages**: C++
+- **Libraries**: LSL / Serial
+- **Note**: Not working well ...
 - **Compatibility**:
 
 | Ubuntu           | Window10         | MacOS            |
@@ -91,6 +105,8 @@
 ### Database Feeder - lslsub_dbfeeder <a name="dbfeeder"></a>
 - **Brief**: Search for available LSL stream, for each of them create a thread doing the following: open the database, create a table and store the samples.
 - **Documentation & Git**: [Doc link](https://aightech.github.io/lslsub_dbfeeder/html/index.html) & [Git link](https://github.com/Aightech/lslsub_dbfeeder)
+- **Languages**: C++
+- **Libraries**: LSL / pqxx
 - **Note**: /
 - **Compatibility**:
 
@@ -101,6 +117,8 @@
 ### Machine learning - psql_ML <a name="ML"></a>
 - **Brief**: Get inputs and labels samples from the database and train a tensorflow model.
 - **Documentation & Git**: [Doc link](https://aightech.github.io/psql_ML/html/index.html) & [Git link](https://github.com/Aightech/psql_ML)
+- **Languages**: Python
+- **Libraries**: pylsl / tensorflow
 - **Note**: /
 - **Compatibility**:
 
@@ -112,6 +130,8 @@
 ### Online Decoder - lslsub_decoder <a name="decoder"></a>
 - **Brief**: Get inputs and labels samples from the lsl streams and train a tensorflow model online.
 - **Documentation & Git**: [Doc link](https://aightech.github.io/lslsub_decoder/html/index.html) & [Git link](https://github.com/Aightech/lslsub_decoder)
+- **Languages**: Python
+- **Libraries**: pylsl / tensorflow
 - **Note**: Not done yet
 - **Compatibility**:
 
@@ -123,6 +143,8 @@
 ### LSL plotter - lslsub_plotter <a name="plotter"></a>
 - **Brief**: Get the streams and plot them in real time.
 - **Documentation & Git**: [Doc link](https://aightech.github.io/lslsub_plotter/html/index.html) & [Git link](https://github.com/Aightech/lslsub_plotter)
+- **Languages**: C++ / Python
+- **Libraries**: LSL / Qt / pylsl / vispy
 - **Note**: /
 - **Compatibility**:
 
@@ -133,6 +155,8 @@
 ### Manager Web - lsl_managerWeb <a name="Web"></a>
 - **Brief**: Enable to launch and monitor the different [inputs](#inputs) and [labels](#inputs-labes) pluggings.
 - **Documentation & Git**: [Doc link](https://aightech.github.io/lsl_managerWeb/html/index.html) & [Git link](https://github.com/Aightech/lsl_managerWeb)
+- **Languages**: Python
+- **Libraries**: LSL / Dash
 - **Note**: /
 - **Compatibility**:
 
