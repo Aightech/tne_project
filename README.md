@@ -101,3 +101,35 @@
 | Ubuntu           | Window10         | MacOS            |
 |:----------------:|:----------------:|:----------------:|
 |:heavy_check_mark:|:heavy_check_mark:|:grey_question:   |
+
+## Processing
+### Online Decoder - lslsub_decoder <a name="decoder"></a>
+- **Brief**: Get inputs and labels samples from the lsl streams and train a tensorflow model online.
+- **Documentation & Git**: [Doc link](https://aightech.github.io/lslsub_decoder/html/index.html) & [Git link](https://github.com/Aightech/lslsub_decoder)
+- **Note**: Not done yet
+- **Compatibility**:
+
+| Ubuntu           | Window10         | MacOS            |
+|:----------------:|:----------------:|:----------------:|
+|:grey_question:   |:grey_question:   |:grey_question:   |
+
+## Other
+### LSL plotter - lslsub_plotter <a name="plotter"></a>
+- **Brief**: Get the streams and plot them in real time
+- **Documentation & Git**: [Doc link](https://aightech.github.io/lslsub_plotter/html/index.html) & [Git link](https://github.com/Aightech/lslsub_plotter)
+- **Note**: /
+- **Compatibility**:
+
+| Ubuntu           | Window10         | MacOS            |
+|:----------------:|:----------------:|:----------------:|
+|:heavy_check_mark:|:heavy_check_mark:|:grey_question:   |
+
+### Manager Web - lsl_managerWeb <a name="managerWeb"></a>
+- **Brief**: Get inputs and labels samples from the database and train a tensorflow model.
+- **Documentation & Git**: [Doc link](https://aightech.github.io/lsl_managerWeb/html/index.html) & [Git link](https://github.com/Aightech/lsl_managerWeb)
+- **Note**: /
+- **Compatibility**:
+
+| Ubuntu           | Window10         | MacOS            |
+|:----------------:|:----------------:|:----------------:|
+|:heavy_check_mark:|:heavy_check_mark:|:grey_question:   |
