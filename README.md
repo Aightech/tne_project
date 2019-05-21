@@ -67,7 +67,7 @@
 ## Inputs Labels
 ### Hand Model - lslsub_handModel <a name="handModel"></a>
 - **Brief**: Create two 3D hand models with Unity. Those models can be control through LSL streams and they publish they current position on others LSL streams. 
-- **Documentation & Git**: [Doc link](https://aightech.github.io/lslpub_handModel/html/index.html) & [Git link](https://github.com/Aightech/lslpub_handModel)
+- **Documentation & Git**: [Doc link](https://aightech.github.io/lslsub_handModel/html/index.html) & [Git link](https://github.com/Aightech/lslsub_handModel)
 - **Languages**: C#
 - **Libraries**: LSL4Unity / Unity
 - **Note**: Linux issue due to LSL4Unity plugins
