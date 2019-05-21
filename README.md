@@ -1,9 +1,9 @@
 # tne_project
 
-| [Inputs](#inputs)  | [Inputs Labels](#inputs-labels)   | [Database](#database) | [Processing ](#processing) | [Other](#other) |
-|:------------------:|:---------------------------------:|:---------------------:|:--------------------------:|:---------------:|
-| [OTB](#OTB)        | [Hand Model](#handModel)          |  |  |  | 
-| [ESP](#ESP)        | [Hand Choregraph](#handChoregraph)|  |  |  | 
+| [Inputs](#inputs)  | [Inputs Labels](#inputs-labels)   | [Database](#database)  | [Processing ](#processing) | [Other](#other) |
+|:------------------:|:---------------------------------:|:----------------------:|:--------------------------:|:---------------:|
+| [OTB](#OTB)        | [Hand Model](#handModel)          | [Feeder](#dbfeeder)    |  |  | 
+| [ESP](#ESP)        | [Hand Choregraph](#handChoregraph)| [Machine learning](#ML)|  |  | 
 | [LabJack](#LabJack)| [Sensor Glove](#handGlove)        |  |  |  | 
 | [Xsens](#Xsens)    |  |  |  |  | 
 
@@ -11,7 +11,7 @@
 
 ## Inputs
 ### OTB400 - lslpub_OTB <a name="OTB"></a>
-- **Brief**: Create a TCP connection with the OTB400 device and publish the samples on a LSL streams 
+- **Brief**: Create a TCP connection with the OTB400 device and publish the samples on a LSL streams.
 - **Documentation & Git**: [Doc link](https://aightech.github.io/lslpub_OTB/html/d3/dcc/md__r_e_a_d_m_e.html) & [Git link](https://github.com/Aightech/lslpub_OTB)
 - **Note**: /
 - **Compatibility**:
@@ -21,7 +21,7 @@
 |:heavy_check_mark:|:heavy_check_mark:|:grey_question:   |
 
 ### ESP - lslpub_ESP <a name="ESP"></a>
-- **Brief**: Create a wifi connection with an ESP device and publish the samples on a LSL streams 
+- **Brief**: Create a wifi connection with an ESP device and publish the samples on a LSL streams.
 - **Documentation & Git**: [Doc link](https://aightech.github.io/lslpub_ESP/html/index.html) & [Git link](https://github.com/Aightech/lslpub_ESP)
 - **Note**: /
 - **Compatibility**:
@@ -31,7 +31,7 @@
 |:heavy_check_mark:|:grey_question:   |:grey_question:   |
 
 ### LabJack - lslpub_LabJack <a name="LabJack"></a>
-- **Brief**: Create a TCP connection with the LabJack and publish the samples on a LSL streams 
+- **Brief**: Create a TCP connection with the LabJack and publish the samples on a LSL streams.
 - **Documentation & Git**: ~~[Doc link](https://aightech.github.io/lslpub_LabJack/html/index.html)~~ & [Git link](https://github.com/Aightech/lslpub_LabJack)
 - **Note**: not stable and not configurable.
 - **Compatibility**:
@@ -41,7 +41,7 @@
 |:heavy_check_mark:|:grey_question:   |:grey_question:   |
 
 ### Xsens Raw IMU - lslpub_XsensRaw <a name="Xsens"></a>
-- **Brief**: Connect to Xsens IMU devices and publish the samples on a LSL streams 
+- **Brief**: Connect to Xsens IMU devices and publish the samples on a LSL streams.
 - **Documentation & Git**: ~~[Doc link](https://aightech.github.io/lslpub_XsensRaw/html/index.html)~~ & [Git link](https://github.com/Aightech/lslpub_XsensRaw)
 - **Note**: not stable.
 - **Compatibility**:
@@ -62,7 +62,7 @@
 |:x:               |:heavy_check_mark:|:grey_question:   |
 
 ### Hand Choregrapher - lslpub_handChoregraph <a name="handChoregraph"></a>
-- **Brief**: Create or open hand choregraphy file and publish the succession of mouvement on a LSL stream to control the [hand model](#handModel) 
+- **Brief**: Create or open hand choregraphy file and publish the succession of mouvement on a LSL stream to control the [hand model](#handModel).
 - **Documentation & Git**: [Doc link](https://aightech.github.io/lslpub_handChoregraph/html/index.html) & [Git link](https://github.com/Aightech/lslpub_handChoregraph)
 - **Note**: /
 - **Compatibility**:
@@ -72,7 +72,7 @@
 |:heavy_check_mark:|:heavy_check_mark:|:grey_question:   |
 
 ### Sensors Glove - lslpub_handGlove <a name="handGlove"></a>
-- **Brief**: Create or open hand choregraphy file and publish the succession of mouvement on a LSL stream to control the [hand model](#handModel) 
+- **Brief**: Create a serial connection with the glove device device and publish the samples on a LSL streams.
 - **Documentation & Git**: ~~[Doc link](https://aightech.github.io/lslpub_handGlove/html/index.html)~~ & [Git link](https://github.com/Aightech/lslpub_handGlove)
 - **Note**: not working well ...
 - **Compatibility**:
@@ -80,3 +80,24 @@
 | Ubuntu           | Window10         | MacOS            |
 |:----------------:|:----------------:|:----------------:|
 |:heavy_check_mark:|:grey_question:   |:grey_question:   |
+
+## Database
+### Database Feeder - lslsub_dbfeeder <a name="dbfeeder"></a>
+- **Brief**: Search for available LSL stream, for each of them create a thread doing the following: open the database, create a table and store the samples.
+- **Documentation & Git**: [Doc link](https://aightech.github.io/lslsub_dbfeeder/html/index.html) & [Git link](https://github.com/Aightech/lslsub_dbfeeder)
+- **Note**: /
+- **Compatibility**:
+
+| Ubuntu           | Window10         | MacOS            |
+|:----------------:|:----------------:|:----------------:|
+|:heavy_check_mark:|:grey_question:   |:grey_question:   |
+
+### Machine learning - psql_ML <a name="ML"></a>
+- **Brief**: Get inputs and labels samples from the database and train a tensorflow model.
+- **Documentation & Git**: [Doc link](https://aightech.github.io/psql_ML/html/index.html) & [Git link](https://github.com/Aightech/psql_ML)
+- **Note**: /
+- **Compatibility**:
+
+| Ubuntu           | Window10         | MacOS            |
+|:----------------:|:----------------:|:----------------:|
+|:heavy_check_mark:|:heavy_check_mark:|:grey_question:   |
