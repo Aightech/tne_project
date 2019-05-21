@@ -7,12 +7,11 @@
 - **Brief**: Create a TCP connection with the OTB400 device and publish the samples on a LSL streams 
 - **Documentation & Git**: [Doc link](https://aightech.github.io/lslpub_OTB/html/d3/dcc/md__r_e_a_d_m_e.html) & [Git link](https://github.com/Aightech/lslpub_OTB)
 - **Note**: /
+- **Compatibility**:
 
-| OS       | Compatibility      | 
-|:--------:|:------------------:|
-| Ubuntu   | :heavy_check_mark: |  
-| Window10 | :heavy_check_mark: |
-| macOS    | :x:                |
+| Ubuntu           | Window10         | MacOS            |
+|:----------------:|:----------------:|:----------------:|
+|:heavy_check_mark:|:heavy_check_mark:|:x:               |
 
 ### ESP - lslpub_ESP
 - **Brief**: Create a wifi connection with an ESP device and publish the samples on a LSL streams 
