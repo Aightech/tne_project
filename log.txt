@@ -1,0 +1,48 @@
+HTTP/1.1 401 Unauthorized
+Server: GitHub.com
+Date: Wed, 22 May 2019 08:24:04 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 93
+Status: 401 Unauthorized
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 57
+X-RateLimit-Reset: 1558517044
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+X-GitHub-Request-Id: 678E:4732:298F12B:5B16B7F:5CE50724
+
+{
+  "message": "Bad credentials",
+  "documentation_url": "https://developer.github.com/v3"
+}
+HTTP/1.1 401 Unauthorized
+Server: GitHub.com
+Date: Wed, 22 May 2019 08:24:20 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 93
+Status: 401 Unauthorized
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 56
+X-RateLimit-Reset: 1558517060
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+X-GitHub-Request-Id: 678F:2E35:3BFA7C3:770E5B5:5CE50734
+
+{
+  "message": "Bad credentials",
+  "documentation_url": "https://developer.github.com/v3"
+}
