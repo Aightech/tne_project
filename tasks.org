@@ -1,9 +1,9 @@
 #+SEQ_TODO: TODO(t) WAITING(w) SOMEDAY(s) | DONE(d) CANCELLED(c)
 
 * Tasks
-** TODO Read articles
-   DEADLINE: <2019-05-24 ven.> SCHEDULED: <2019-05-17 ven.>
-** TODO Do Machine learning tests
+** DONE Read articles
+   DEADLINE: <2019-05-28 mar.> SCHEDULED: <2019-05-17 ven.>
+** DONE Do Machine learning tests
    DEADLINE: <2019-05-24 ven.> SCHEDULED: <2019-05-17 ven.>
 ** TODO Choose Topics
    DEADLINE: <2019-05-31 ven.> SCHEDULED: <2019-05-26 dim.>
