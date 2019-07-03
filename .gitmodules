@@ -1,45 +1,60 @@
 [submodule "inputs/lslpub_Xsens"]
 	path = inputs/lslpub_Xsens
 	url = ../lslpub_Xsens
+	branch = master
 [submodule "inputs/lslpub_XsensRaw"]
 	path = inputs/lslpub_XsensRaw
 	url = ../lslpub_XsensRaw
+	branch = master
 [submodule "inputs/lslpub_LabJack"]
 	path = inputs/lslpub_LabJack
 	url = ../lslpub_LabJack
+	branch = master
 [submodule "inputs_labels/lslsub_handModel"]
 	path = inputs_labels/lslsub_handModel
 	url = ../lslsub_handModel
+	branch = master
 [submodule "inputs_labels/lslpub_handChoregraph"]
 	path = inputs_labels/lslpub_handChoregraph
 	url = ../lslpub_handChoregraph
+	branch = master
 [submodule "other/lslsub_plotter"]
 	path = other/lslsub_plotter
 	url = ../lslsub_plotter
+	branch = vispy
 [submodule "other/lsl_manager"]
 	path = other/lsl_manager
 	url = ../lsl_manager
+	branch = master
 [submodule "other/lsl_managerWeb"]
 	path = other/lsl_managerWeb
 	url = ../lsl_managerWeb
+	branch = master
 [submodule "database/lslsub_dbfeeder"]
 	path = database/lslsub_dbfeeder
 	url = ../lslsub_dbfeeder
+	branch = master
 [submodule "inputs/lslpub_ESP"]
 	path = inputs/lslpub_ESP
 	url = ../lslpub_ESP
+	branch = master
 [submodule "processing/lslsub_decoder"]
 	path = processing/lslsub_decoder
 	url = ../lslsub_decoder
+	branch = master
 [submodule "database/psql_ML"]
 	path = database/psql_ML
 	url = ../psql_ML
+	branch = master
 [submodule "inputs/lslpub_OTB"]
 	path = inputs/lslpub_OTB
 	url = ../lslpub_OTB
+	branch = master
 [submodule "inputs_labels/lslpub_handGlove"]
 	path = inputs_labels/lslpub_handGlove
 	url = ../lslpub_handGlove
+	branch = master
 [submodule "inputs/lslpub_sigGen"]
 	path = inputs/lslpub_sigGen
 	url = ../lslpub_sigGen
+	branch = master
