@@ -15,3 +15,5 @@
    SCHEDULED: <2019-06-02 dim.>
 ** TODO Write article
 ** TODO write internship reports
+
+** TODO make TODO
