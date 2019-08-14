@@ -58,3 +58,7 @@
 	path = inputs/lslpub_sigGen
 	url = ../lslpub_sigGen
 	branch = master
+[submodule "other/lsl_repeater"]
+	path = other/lsl_repeater
+	url = ../lsl_repeater
+	branch = master
